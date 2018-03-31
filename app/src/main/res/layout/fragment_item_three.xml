@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorWhiteLight"
+                tools:context="com.foodcourt.foodcourt.ItemThreeFragment">
+
+    <!--<ImageView
+        android:id="@+id/truiton_image"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/truiton"/>-->
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="123dp"
+        android:background="@color/colorAccent"
+        android:text="Signup"
+        android:textColor="@color/colorWhiteLight"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/darker_gray"
+        android:text="Login"
+        android:textColor="@color/colorWhiteLight"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</RelativeLayout>
